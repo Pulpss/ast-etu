@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const bodoni = Bodoni_Moda({
-  subsets: ['latin'],
+  subsets: ["latin"],
   variable: "--font-bodoni",
 });
 
@@ -24,11 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${bodoni.variable} ${inter.className}`}>
-        <ThemeProvider
-          attribute="class"
-          disableTransitionOnChange
-        >
+      <body
+        className={`${inter.variable} ${bodoni.variable} ${inter.className}`}
+      >
+        <ThemeProvider attribute="class" disableTransitionOnChange>
           <Navbar />
           {children}
         </ThemeProvider>

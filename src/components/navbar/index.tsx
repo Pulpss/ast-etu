@@ -74,7 +74,18 @@ const Navbar = () => {
     // floating at bottom
     <div className="fixed z-30 left-0 w-full top-4">
       <div className="rounded-md p-1 flex justify-center flex-col items-center">
-        <h1 className="m-auto text-4xl font-bodoni font-bold">Ast-Etu</h1>
+        <div className="flex flex-row items-center justify-center">
+          <span>
+            <Image
+              src="/logo_no_text.png"
+              alt="logo no text"
+              width={65}
+              height={65}
+            ></Image>
+          </span>
+          <h1 className="m-auto text-4xl font-bodoni font-bold">Ast-Etu</h1>
+        </div>
+
         <NavigationMenu className="m-2">
           <NavigationMenuList className="space-x-3">
             {/* Produits */}

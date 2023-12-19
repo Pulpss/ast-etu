@@ -62,7 +62,7 @@ export default function Footer() {
               <Link className="text-gray-400 hover:text-white" href="#">
                 <TwitterIcon className="w-6 h-6" />
               </Link>
-              <Link className="text-gray-400 hover:text-white" href="#">
+              <Link className="text-gray-400 hover:text-white" href="https://www.instagram.com/astetu2.0/">
                 <InstagramIcon className="w-6 h-6" />
               </Link>
             </div>
