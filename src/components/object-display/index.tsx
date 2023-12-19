@@ -50,12 +50,8 @@ export default function ObjectDisplay({
 
       {children}
       {/* Ground */}
-
-
-      <OrbitControls
-        minPolarAngle={Math.PI / 6}
-        maxPolarAngle={Math.PI - (Math.PI * 2) / 5}
-      />
+      
+      <OrbitControls />
       <Environment preset="forest" background blur={0.5} />
     </Canvas>
   );

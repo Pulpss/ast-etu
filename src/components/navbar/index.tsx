@@ -16,11 +16,11 @@ import Image from "next/image";
 
 const sections = [
   {
-    title: "Nos valeurs",
+    title: "Valeurs",
     href: "/valeurs",
   },
   {
-    title: "Nos services",
+    title: "Services",
     href: "/services",
   },
   {
@@ -37,17 +37,17 @@ const produits = [
   {
     title: "Notre gamme 2021",
     description: "Découvrez notre gamme de produits pour l'année 2021",
-    href: "/produits",
+    href: "/",
   },
   {
     title: "Notre gamme 2022",
     description: "Découvrez la gamme de l'année derniere",
-    href: "/produits",
+    href: "/",
   },
   {
     title: "Notre gamme 2023",
     description: "Découvrez notre gamme la plus récente",
-    href: "/produits",
+    href: "/",
   },
 ];
 
@@ -79,7 +79,7 @@ const Navbar = () => {
           <NavigationMenuList className="space-x-3">
             {/* Produits */}
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Nos produits</NavigationMenuTrigger>
+              <NavigationMenuTrigger>Produits</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                   <li className="row-span-3">

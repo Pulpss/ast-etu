@@ -3,6 +3,7 @@ import { Inter, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -26,7 +27,6 @@ export default function RootLayout({
       <body className={`${inter.variable} ${bodoni.variable} ${inter.className}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="white"
           disableTransitionOnChange
         >
           <Navbar />
